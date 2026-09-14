@@ -7,16 +7,21 @@ functions for filtering, sorting, quality checks and text-frequency analysis.
 Typical notebook usage::
 
     from document_analysis import (
+        set_analysis_folder,
+        load_active_documents,
         load_all_documents,
         document_summary,
         filter_documents,
         sort_documents,
+        spearman_correlation,
         word_frequencies,
     )
 
-    documents = load_all_documents()
+    set_analysis_folder("public_records")
+    documents = load_active_documents()
     recent = sort_documents(documents, by="document_date", ascending=False)
     restricted = filter_documents(recent, access_status="restricted")
+    correlations = spearman_correlation(documents)
     top_words = word_frequencies(documents)
 
 Pandas is imported lazily so that the module can still be inspected or
@@ -61,6 +66,27 @@ DOCUMENT_FAMILIES: Mapping[str, str] = {
     "clinical_notes": "health",
     "environmental_reports": "ecology",
 }
+
+# A notebook can switch between these scopes without rewriting its loading
+# code.  ``all`` loads the four textual sources; a folder loads the document
+# sources belonging to that data family.
+ANALYSIS_FOLDERS: Mapping[str, tuple[str, ...]] = {
+    "all": tuple(DOCUMENT_FILES),
+    "public_records": ("public_investigative", "institutional_memos"),
+    "health": ("clinical_notes",),
+    "ecology": ("environmental_reports",),
+}
+
+FOLDER_ALIASES: Mapping[str, str] = {
+    "public": "public_records",
+    "medical": "health",
+    "ecological": "ecology",
+    "all_documents": "all",
+}
+
+# Global notebook switcher.  Use ``set_analysis_folder`` rather than
+# assigning this variable from an imported namespace.
+ACTIVE_ANALYSIS_FOLDER = "all"
 
 # The data is in English.  The set is intentionally modest and can be
 # replaced by the caller when a different language or stop-word policy is
@@ -367,6 +393,108 @@ def load_document_file(
     )
 
 
+def _resolve_analysis_folder(folder: str | None = None) -> str:
+    selected = folder if folder is not None else ACTIVE_ANALYSIS_FOLDER
+    normalized = selected.strip().lower()
+    normalized = FOLDER_ALIASES.get(normalized, normalized)
+    if normalized not in ANALYSIS_FOLDERS:
+        choices = ", ".join(ANALYSIS_FOLDERS)
+        raise ValueError(
+            f"Dossier d’analyse inconnu : {selected!r}. Choisir parmi : {choices}."
+        )
+    return normalized
+
+
+def set_analysis_folder(folder: str) -> str:
+    """Set and return the global document folder used by the notebook.
+
+    Accepted values are ``all``, ``public_records``, ``health`` and
+    ``ecology``.  The aliases ``public``, ``medical`` and ``ecological`` are
+    also accepted.
+    """
+
+    global ACTIVE_ANALYSIS_FOLDER
+    ACTIVE_ANALYSIS_FOLDER = _resolve_analysis_folder(folder)
+    return ACTIVE_ANALYSIS_FOLDER
+
+
+def get_analysis_folder() -> str:
+    """Return the currently selected global analysis folder."""
+
+    return _resolve_analysis_folder()
+
+
+def load_active_documents(
+    data_dir: str | Path | None = None,
+    *,
+    folder: str | None = None,
+    encoding: str = "utf-8",
+) -> "pd.DataFrame":
+    """Load documents for the selected folder.
+
+    If ``folder`` is omitted, the global value set by
+    :func:`set_analysis_folder` is used.  Passing ``folder`` is useful when a
+    notebook wants to avoid changing global state temporarily.
+    """
+
+    selected = _resolve_analysis_folder(folder)
+    return load_all_documents(
+        data_dir=data_dir,
+        sources=ANALYSIS_FOLDERS[selected],
+        encoding=encoding,
+    )
+
+
+def output_directory(
+    output_root: str | Path | None = None,
+    *,
+    folder: str | None = None,
+    create: bool = False,
+) -> Path:
+    """Return the output directory corresponding to the selected folder."""
+
+    selected = _resolve_analysis_folder(folder)
+    root = Path(output_root) if output_root is not None else PROJECT_ROOT / "outputs"
+    directory = root / selected
+    if create:
+        directory.mkdir(parents=True, exist_ok=True)
+    return directory
+
+
+def output_path(
+    filename: str | Path,
+    output_root: str | Path | None = None,
+    *,
+    folder: str | None = None,
+    create: bool = False,
+) -> Path:
+    """Build a safe output path inside the selected folder's output directory."""
+
+    name = Path(filename).name
+    if not name or name in {".", ".."}:
+        raise ValueError("Le nom du fichier de sortie ne peut pas être vide")
+    if Path(name).suffix == "":
+        name = f"{name}.csv"
+    return output_directory(output_root, folder=folder, create=create) / name
+
+
+def save_output(
+    frame: "pd.DataFrame",
+    filename: str | Path,
+    output_root: str | Path | None = None,
+    *,
+    folder: str | None = None,
+    index: bool = False,
+    encoding: str = "utf-8",
+) -> Path:
+    """Save a DataFrame in the output directory for the selected folder."""
+
+    _require_pandas()
+    path = output_path(filename, output_root, folder=folder, create=True)
+    frame.to_csv(path, index=index, encoding=encoding)
+    return path
+
+
 def load_all_documents(
     data_dir: str | Path | None = None,
     *,
@@ -601,6 +729,67 @@ def quality_report(documents: "pd.DataFrame") -> "pd.DataFrame":
     return report
 
 
+def spearman_correlation(
+    documents: "pd.DataFrame",
+    *,
+    columns: Sequence[str] | None = None,
+    min_periods: int = 2,
+) -> "pd.DataFrame":
+    """Return a Spearman correlation matrix for numeric document features.
+
+    By default, every numeric column is used.  On a prepared document frame
+    this includes, for example, ``word_count``, ``character_count`` and
+    ``document_year``.  Columns can be restricted explicitly when the
+    notebook needs a particular comparison.
+    """
+
+    _require_pandas()
+    frame = documents
+    if "word_count" not in frame.columns or "text_clean" not in frame.columns:
+        frame = prepare_documents(frame)
+
+    if columns is None:
+        numeric = frame.select_dtypes(include="number").copy()
+    else:
+        missing = sorted(set(columns) - set(frame.columns))
+        if missing:
+            raise KeyError(f"Colonnes absentes pour la corrélation : {', '.join(missing)}")
+        numeric = frame[list(columns)].apply(pd.to_numeric, errors="coerce")
+
+    numeric = numeric.dropna(axis=1, how="all")
+    if numeric.shape[1] < 2:
+        raise ValueError(
+            "La corrélation de Spearman nécessite au moins deux colonnes numériques."
+        )
+    return numeric.corr(method="spearman", min_periods=min_periods)
+
+
+def spearman_correlation_by_group(
+    documents: "pd.DataFrame",
+    *,
+    group_by: str = "source_id",
+    columns: Sequence[str] | None = None,
+    min_periods: int = 2,
+) -> dict[object, "pd.DataFrame"]:
+    """Return one Spearman matrix for every source or document type."""
+
+    _require_pandas()
+    if group_by not in documents.columns:
+        raise KeyError(f"Colonne de regroupement absente : {group_by}")
+
+    matrices: dict[object, "pd.DataFrame"] = {}
+    for group_value, group in documents.groupby(group_by, dropna=False):
+        try:
+            matrices[group_value] = spearman_correlation(
+                group, columns=columns, min_periods=min_periods
+            )
+        except ValueError:
+            # A group with constant or absent numeric data does not produce a
+            # meaningful matrix, so it is omitted rather than fabricated.
+            continue
+    return matrices
+
+
 def word_frequencies(
     documents: "pd.DataFrame",
     *,
@@ -749,21 +938,32 @@ def search_documents(
 
 
 __all__ = [
+    "ACTIVE_ANALYSIS_FOLDER",
+    "ANALYSIS_FOLDERS",
     "DEFAULT_ENGLISH_STOPWORDS",
     "DOCUMENT_FAMILIES",
     "DOCUMENT_FILES",
+    "FOLDER_ALIASES",
     "PROJECT_ROOT",
     "category_counts",
     "document_summary",
     "filter_documents",
+    "get_analysis_folder",
+    "load_active_documents",
     "load_all_documents",
     "load_document_file",
     "ngram_frequencies",
     "normalize_text",
+    "output_directory",
+    "output_path",
     "prepare_documents",
     "quality_report",
+    "save_output",
     "search_documents",
+    "set_analysis_folder",
     "sort_documents",
+    "spearman_correlation",
+    "spearman_correlation_by_group",
     "tokenize_text",
     "word_frequencies",
     "word_frequencies_by_group",
