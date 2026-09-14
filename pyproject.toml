@@ -1,0 +1,18 @@
+[project]
+name = "ue-data-mining-project"
+version = "0.1.0"
+description = "Projet de Data Mining M2IA/M2DS 2026-2027"
+readme = "README.md"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "ipykernel>=6.29,<7",
+    "jupyterlab>=4.0,<5",
+    "matplotlib>=3.8,<4",
+    "notebook>=7.0,<8",
+    "numpy>=1.26,<3",
+    "pandas>=2.2,<3",
+]
+
+[tool.uv]
+# document_analysis.py is imported directly from the project root.
+package = false

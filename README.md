@@ -46,12 +46,17 @@ Toute ressemblance avec des personnes réelles, physiques ou morales, est totale
  
 ## Pour bien commencer
 
+Pour une installation multiplateforme reproductible avec `uv`, consultez le
+fichier [`install.md`](install.md).
+
 1. Faites un `fork` de ce repository vers un noveau repository pour votre groupe.
 2. Clonez le repository de votre groupe sur votre machine.
-3. (Installez conda si ce n’est pas déjà fait)
-4. Installez les dépendances avec la commande: `conda create --name <envname> --file requirements.txt`
-5. Lancez le notebook avec la commande: `jupyter notebook nom-du-notebook.ipynb`
-6. Travaillez en groupe et complétez le notebook
+3. Installez les dépendances avec `uv sync --locked` (voir [install.md](install.md)).
+4. Lancez le notebook avec `uv run jupyter notebook Base_notebook_to_complete.ipynb`.
+5. Travaillez en groupe et complétez le notebook.
+
+Le fichier `requirements.txt` est un ancien export Conda spécifique à Windows.
+Pour une installation multiplateforme, utilisez `pyproject.toml` et `uv.lock`.
 
 ## Rendu
 
