@@ -1,0 +1,65 @@
+site_code,site_name,site_category,region,jurisdiction,latitude,longitude,elevation_m,habitat_category,cave_access_category,orchard_context,programme_start_date,site_status
+KNT-KES,Kestrel Cavern Monitoring Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.68,112.31,248.0,karst_habitat,managed,none recorded,2016-01-01,active
+KNT-LUM,Luma Karst Reserve Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.81,112.44,25.0,karst_habitat,managed,none recorded,2016-01-01,active
+KNT-SEN,Senna Ridge Cave Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.59,112.5,45.0,karst_habitat,managed,none recorded,2016-01-01,active
+AVL-MAR,Marula East Orchard Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.41,101.69,226.0,durian_orchard,not applicable,commercial or research orchard,2016-01-01,active
+AVL-VEL,Velin Basin Orchard Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.55,101.84,24.0,durian_orchard,not applicable,commercial or research orchard,2016-01-01,active
+AVL-ORR,Orra Research Orchard Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.62,101.72,262.0,research_site,not applicable,commercial or research orchard,2016-01-01,active
+TMB-NAC,Nacre Coast Cave Site,cave monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.11,104.36,299.0,coastal_habitat,managed,none recorded,2016-01-01,active
+TMB-PEL,Pelagos Grove Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.27,104.49,261.0,coastal_habitat,not applicable,none recorded,2016-01-01,active
+KNT-CYP,Dune Reach Monitoring Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.8228,112.3675,154.14000000000001,karst_habitat,managed,none recorded,2016-01-01,active
+KNT-YRX,Garnet Garden Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.6832,112.0095,192.3,mixed_forest,not applicable,none recorded,2018-01-01,active
+KNT-GKR,Juniper Meadow Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.7372,112.2785,261.7,mixed_forest,not applicable,none recorded,2016-01-01,active
+KNT-NNM,Mango Valley Monitoring Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.7219,112.386,179.5,karst_habitat,managed,none recorded,2018-01-01,active
+KNT-JAK,Pandan Grove Monitoring Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,5.0047,112.4101,191.3,karst_habitat,managed,none recorded,2017-01-01,active
+KNT-JQG,Sable Coast Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.6381,112.4239,214.4,protected_forest,not applicable,none recorded,2017-01-01,active
+KNT-VLB,Vireo Ridge Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.4848,112.3418,161.2,mixed_forest,not applicable,none recorded,2016-01-01,active
+KNT-CHP,Zephyr Forest Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.3872,112.6329,418.8,karst_habitat,not applicable,none recorded,2018-01-01,active
+KNT-YRG,Cedar Corridor Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.7331,112.2956,81.6,degraded_land,not applicable,none recorded,2016-01-01,active
+KNT-WUQ,Fern Hollow Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.6667,112.2964,116.0,protected_forest,not applicable,none recorded,2016-01-01,active
+KNT-DMJ,Ivory Plateau Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.85,112.3787,190.4,mixed_forest,not applicable,none recorded,2018-01-01,active
+KNT-GGN,Lotus Basin Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.9278,112.3295,189.2,degraded_land,not applicable,none recorded,2017-01-01,active
+KNT-QWU,Osprey Wetland Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.8896,112.6251,232.5,karst_habitat,not applicable,none recorded,2018-01-01,active
+KNT-TLQ,Rattan Reserve Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.6141,112.4206,118.2,mixed_forest,not applicable,none recorded,2016-01-01,active
+KNT-UJJ,Umber Orchard Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.7563,112.3236,237.8,mixed_forest,not applicable,none recorded,2016-01-01,active
+KNT-VXR,Yarrow Cavern Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.4479,112.4086,332.8,mixed_forest,not applicable,none recorded,2017-01-01,active
+KNT-TEX,Banyan Reach Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,4.6917,112.6905,82.6,mixed_forest,not applicable,none recorded,2016-01-01,active
+KNT-BME,Ember Garden Monitoring Site,cave monitoring,Kintara Karst Cluster,Kintara Republic,4.7403,112.3542,138.0,karst_habitat,managed,none recorded,2017-01-01,active
+KNT-XAC,Heron Meadow Monitoring Site,habitat monitoring,Kintara Karst Cluster,Kintara Republic,5.0398,112.4503,271.9,protected_forest,not applicable,none recorded,2017-01-01,active
+AVL-TRP,Kora Valley Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.7568,101.8785,237.0,mixed_agriculture,not applicable,commercial or research orchard,2016-01-01,active
+AVL-NFR,Nerine Grove Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.4768,101.751,26.4,mixed_agriculture,not applicable,commercial or research orchard,2017-01-01,active
+AVL-ARU,Quartz Coast Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.724,101.4303,314.3,research_site,not applicable,none recorded,2018-01-01,active
+AVL-GRB,Tamarind Ridge Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.3725,102.0928,186.4,mixed_agriculture,not applicable,commercial or research orchard,2018-01-01,active
+AVL-DER,Willow Forest Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.3427,101.9309,162.0,mixed_forest,not applicable,none recorded,2018-01-01,active
+AVL-HTY,Amber Corridor Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.728,101.6994,233.0,research_site,not applicable,none recorded,2018-01-01,active
+AVL-RNY,Dune Hollow Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.3794,101.8441,5.0,research_site,not applicable,none recorded,2016-01-01,active
+AVL-ECJ,Garnet Plateau Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.5053,101.3874,61.7,durian_orchard,not applicable,commercial or research orchard,2016-01-01,active
+AVL-RBC,Juniper Basin Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.4963,101.5585,88.6,durian_orchard,not applicable,commercial or research orchard,2017-01-01,active
+AVL-KAR,Mango Wetland Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.4089,101.6084,176.7,durian_orchard,not applicable,commercial or research orchard,2018-01-01,active
+AVL-YAU,Pandan Reserve Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.6512,101.7609,156.7,durian_orchard,not applicable,commercial or research orchard,2018-01-01,active
+AVL-BWK,Sable Orchard Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.4404,101.5683,114.1,mixed_forest,not applicable,none recorded,2017-01-01,active
+AVL-BVM,Vireo Cavern Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.5208,101.8087,101.9,research_site,not applicable,none recorded,2017-01-01,active
+AVL-ABG,Zephyr Reach Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.7413,102.0571,206.6,mixed_forest,not applicable,none recorded,2018-01-01,active
+AVL-SEY,Cedar Garden Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.4266,101.3263,239.2,mixed_forest,not applicable,none recorded,2018-01-01,active
+AVL-HUA,Fern Meadow Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.7014,101.8681,100.5,mixed_agriculture,not applicable,commercial or research orchard,2017-01-01,active
+AVL-FNM,Ivory Valley Monitoring Site,habitat monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.6634,101.9841,153.6,research_site,not applicable,none recorded,2016-01-01,active
+AVL-NMQ,Lotus Grove Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.5807,101.7294,128.9,durian_orchard,not applicable,commercial or research orchard,2017-01-01,active
+AVL-FNQ,Osprey Coast Monitoring Site,orchard monitoring,Eastern Avelora Agricultural Cluster,Avelora Federation,7.3956,101.9351,277.2,mixed_agriculture,not applicable,commercial or research orchard,2016-01-01,active
+TMB-HVD,Rattan Ridge Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1924,104.0316,5.0,mixed_forest,not applicable,none recorded,2016-01-01,active
+TMB-VZT,Umber Forest Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1808,104.3438,9.7,coastal_habitat,not applicable,none recorded,2016-01-01,active
+TMB-CKU,Yarrow Corridor Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,1.9648,104.4461,91.1,coastal_habitat,not applicable,none recorded,2018-01-01,active
+TMB-WYT,Banyan Hollow Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.5221,104.0381,127.0,mixed_forest,not applicable,none recorded,2016-01-01,active
+TMB-GWP,Ember Plateau Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.2397,104.1567,59.9,coastal_habitat,not applicable,none recorded,2016-01-01,active
+TMB-BRC,Heron Basin Monitoring Site,orchard monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1668,104.4755,220.6,durian_orchard,not applicable,commercial or research orchard,2018-01-01,active
+TMB-SKZ,Kora Wetland Monitoring Site,orchard monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.4754,104.08,118.6,durian_orchard,not applicable,commercial or research orchard,2017-01-01,active
+TMB-UVF,Nerine Reserve Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,1.7668,104.51,53.4,mixed_forest,not applicable,none recorded,2018-01-01,active
+TMB-HFR,Quartz Orchard Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.23,104.0481,5.0,mixed_forest,not applicable,none recorded,2018-01-01,active
+TMB-GZX,Tamarind Cavern Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.4151,104.5084,84.7,mixed_forest,not applicable,none recorded,2018-01-01,active
+TMB-AYQ,Willow Reach Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1911,104.5686,142.4,coastal_habitat,not applicable,none recorded,2017-01-01,active
+TMB-HQL,Amber Garden Monitoring Site,orchard monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1263,104.56,5.0,durian_orchard,not applicable,commercial or research orchard,2017-01-01,active
+TMB-XTD,Dune Meadow Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1164,104.4596,5.0,coastal_habitat,not applicable,none recorded,2018-01-01,active
+TMB-WST,Garnet Valley Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.0828,104.5359,195.6,coastal_habitat,not applicable,none recorded,2018-01-01,active
+TMB-SXP,Juniper Grove Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.374,104.4519,5.0,coastal_habitat,not applicable,none recorded,2018-01-01,active
+TMB-WQL,Mango Coast Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.1344,104.537,101.5,mixed_forest,not applicable,none recorded,2016-01-01,active
+TMB-QCB,Pandan Ridge Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.4132,104.2858,110.2,mixed_forest,not applicable,none recorded,2016-01-01,active
+TMB-DLQ,Sable Forest Monitoring Site,habitat monitoring,Tembara Coastal Cluster,Tembara Commonwealth,2.5893,104.4711,5.0,coastal_habitat,not applicable,none recorded,2017-01-01,active

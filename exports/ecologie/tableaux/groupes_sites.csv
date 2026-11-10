@@ -1,0 +1,15 @@
+﻿region,site_category,habitat_category,nombre_sites,sites
+Tembara Coastal Cluster,habitat monitoring,coastal_habitat,9,"TMB-AYQ, TMB-CKU, TMB-DLQ, TMB-GWP, TMB-PEL, TMB-SXP, TMB-VZT, TMB-WST, TMB-XTD"
+Kintara Karst Cluster,habitat monitoring,mixed_forest,8,"KNT-DMJ, KNT-GKR, KNT-TEX, KNT-TLQ, KNT-UJJ, KNT-VLB, KNT-VXR, KNT-YRX"
+Kintara Karst Cluster,cave monitoring,karst_habitat,7,"KNT-BME, KNT-CYP, KNT-JAK, KNT-KES, KNT-LUM, KNT-NNM, KNT-SEN"
+Tembara Coastal Cluster,habitat monitoring,mixed_forest,7,"TMB-GZX, TMB-HFR, TMB-HVD, TMB-QCB, TMB-UVF, TMB-WQL, TMB-WYT"
+Eastern Avelora Agricultural Cluster,orchard monitoring,durian_orchard,7,"AVL-ECJ, AVL-KAR, AVL-MAR, AVL-NMQ, AVL-RBC, AVL-VEL, AVL-YAU"
+Eastern Avelora Agricultural Cluster,orchard monitoring,mixed_agriculture,5,"AVL-FNQ, AVL-GRB, AVL-HUA, AVL-NFR, AVL-TRP"
+Eastern Avelora Agricultural Cluster,habitat monitoring,research_site,5,"AVL-ARU, AVL-BVM, AVL-FNM, AVL-HTY, AVL-RNY"
+Eastern Avelora Agricultural Cluster,habitat monitoring,mixed_forest,4,"AVL-ABG, AVL-BWK, AVL-DER, AVL-SEY"
+Tembara Coastal Cluster,orchard monitoring,durian_orchard,3,"TMB-BRC, TMB-HQL, TMB-SKZ"
+Kintara Karst Cluster,habitat monitoring,protected_forest,3,"KNT-JQG, KNT-WUQ, KNT-XAC"
+Kintara Karst Cluster,habitat monitoring,degraded_land,2,"KNT-GGN, KNT-YRG"
+Kintara Karst Cluster,habitat monitoring,karst_habitat,2,"KNT-CHP, KNT-QWU"
+Eastern Avelora Agricultural Cluster,orchard monitoring,research_site,1,AVL-ORR
+Tembara Coastal Cluster,cave monitoring,coastal_habitat,1,TMB-NAC
