@@ -1,0 +1,31 @@
+id_source_A,id_source_B,verifie_main,commentaire
+APT-000029,LIC-KNT-ADM-1026,oui,même nom et région ; licence d'administration délivrée l'année de la nomination comme chargée de programme
+APT-000022,LIC-VLN-ADM-1022,oui,même nom et région ; licence d'administration délivrée l'année de la nomination à l'Orison Medical Audit Board
+APT-000007,LIC-VLN-MED-1004,oui,"auditrice médicale nommée en 1995 et licence de médecin, spécialité audit médical, délivrée en 1995"
+APT-000060,LIC-KNT-ADM-1052,oui,"licence délivrée en 2001, l'année de sa nomination suivante (APT-000059) ; même région Kintaran"
+FLG-000069,LIC-AVL-ENV-1029,oui,militante pollinisateurs depuis 1989 et licence environnementale délivrée en 1989 ; même région
+APT-000024,LIC-KNT-ADM-1024,oui,"licence délivrée en 1997, l'année de sa nomination suivante (APT-000023) ; même région"
+FLG-000131,APT-000062,oui,"même nom, région Tembaran, même année 2005 ; même schéma que Liora Corda et Jalen Quorin (mandat Asterion déclaré + poste à Tembara)"
+FLG-000085,LIC-VLN-MED-1006,oui,"même personne : mandat chez Asterion et licence rattachée à une clinique Asterion, même année ; ce sont les dates qui sont anormales, pas l'identité"
+FLG-000002,LIC-VLN-MED-1001,oui,même personne au XIXe siècle : investisseur médical depuis 1895 et licence de cardiologue de 1895 ; l'usage actuel de la licence est un autre problème
+FLG-000031,LIC-VLN-RES-1016,oui,chercheuse clinique chez Asterion depuis 1990 et licence de médecin de 1990 rattachée au campus Asterion
+FLG-000123,LIC-AVL-ENV-1048,oui,militante pollinisateurs depuis 1991 et licence environnementale de 1991 ; distincte de Bela Waren (prénom différent)
+FLG-000005,LIC-KNT-RES-1007,oui,correspondant d'histoire naturelle depuis 1885 et licence d'analyse écologique de 1886 ; même région
+FLG-000011,LIC-VLN-RES-1011,oui,ancienne employée de la recherche-logistique et licence de recherche clinique ; même région ; nom rare
+FLG-000096,LIC-AVL-ENV-1038,oui,militante pollinisateurs depuis 1987 et licence de suivi de la faune de 1988 ; même région
+FLG-000126,LIC-NDH-LEG-1049,oui,juriste conformité chez Helix depuis 1999 et licence juridique de conformité de 2000 ; même région
+APT-000016,LIC-AVL-ADM-1013,oui,"licence de 1965 = année de sa première nomination (APT-000015) ; même nom, même région"
+APT-000026,LIC-TMB-ADM-1025,oui,directrice administrative régionale depuis 2013 et licence d'administration de 2014 ; même région
+APT-000038,LIC-TMB-ADM-1034,oui,directeur administratif régional depuis 2012 et licence d'administration de 2013 ; même région
+APT-000058,LIC-VLN-ADM-1050,oui,agent d'accréditation depuis 1983 et licence d'administration de 1984 ; même région
+APT-000025,LIC-TMB-ADM-1027,non,"noms de famille différents (Uren / Maren) ; né en 1992, il ne peut pas avoir une licence de 1994"
+FLG-000108,APT-000019,non,noms de famille différents ; nés en 1960 et 1983
+FLG-000108,LIC-TMB-ADM-1018,non,noms de famille différents (Garen / Uren) ; régions différentes
+APT-000060,LIC-NDH-LEG-1049,non,"Daria Maren (administration, Kintaran) a déjà sa propre licence LIC-KNT-ADM-1052 ; cette licence juridique de Nordhaven est celle de Daria Garen"
+FLG-000127,APT-000060,non,"Daria Garen (juriste, Nordhaven, même déclarant que FLG-000126) et Daria Maren (Kintaran) : deux personnes aux parcours distincts"
+APT-000038,LIC-AVL-ENV-1047,non,Quorin / Zorin : noms différents ; métiers (administration / environnement) et régions différents
+FLG-000036,FLG-000108,non,noms différents ; nés en 1983 et 1960
+FLG-000071,APT-000031,non,prénoms différents (Jora / Doran) ; naissances incompatibles
+FLG-000066,FLG-000108,non,Jaren / Garen ; nés en 1975 et 1960 ; régions différentes
+FLG-000036,FLG-000066,non,Uren / Jaren ; nés en 1983 et 1975
+FLG-000063,FLG-000071,non,même organisation mais prénoms différents (Doran / Jora) et naissances incompatibles
