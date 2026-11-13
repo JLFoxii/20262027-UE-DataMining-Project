@@ -58,6 +58,21 @@ fichier [`install.md`](install.md).
 Le fichier `requirements.txt` est un ancien export Conda spécifique à Windows.
 Pour une installation multiplateforme, utilisez `pyproject.toml` et `uv.lock`.
 
+## Analyse de santé
+
+Le notebook [`03_sante.ipynb`](03_sante.ipynb) contient l'analyse des patients,
+des mesures, des procédures et des enregistrements cardiaques.
+
+Depuis la racine du projet :
+
+```bash
+uv sync --locked
+uv run jupyter notebook 03_sante.ipynb
+```
+
+Dans Jupyter, redémarrer le noyau et exécuter toutes les cellules dans l'ordre.
+Les figures et tableaux sont exportés dans `outputs/sante/`.
+
 ## Rendu
 
 Le rendu pourra se faire via:
