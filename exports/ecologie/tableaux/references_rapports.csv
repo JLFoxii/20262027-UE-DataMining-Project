@@ -1,0 +1,781 @@
+﻿document_id,site_code,document_date,document_type,author_name,author_organization,reporting_period,title,text,related_survey_id,related_device_reference,publication_status,site_releve,survey_start,bats_per_hour,enquete_retrouvee,meme_site,rapport_avant_releve,month,device_operation_id,uptime_pct,acoustic_quality,fault_code,appareil_mois_retrouve
+EFR-510088,KNT-KES,2024-04-02,ecological_incident_report,Anika Dren,Horizon Field Research Cooperative,2024-04-01,Post-Access Ecological Incident at KNT-KES,"INCIDENT
+A post-access inspection was conducted at KNT-KES after the March access window. The acoustic station remained operational, but the subsequent survey recorded a marked reduction in *Eonycteris spelaea* activity compared with other environmentally similar months.
+
+EVIDENCE
+Device uptime was above ninety percent and the acoustic-quality record did not show a sustained fault. Weather interference was moderate and does not account for the full change. Visual inspection identified fresh handling marks near the secondary entrance, two short lengths of cut restraint material, and disturbed sediment along a route not used by the monitoring team. No dead animals were found. The access register confirms authorized equipment entry, although the declared purpose was routine monitoring maintenance.
+
+IMMEDIATE ACTION
+The entrance was photographed, the cut material was retained, and the station configuration was checked against the prior record. A repeat survey and a comparison with adjacent sites were requested. The access authority was asked to preserve the associated case file.
+
+UNCERTAINTY
+The observations are consistent with recent removal or handling activity, but they do not identify who conducted it or why. Seasonal movement, unrecorded disturbance, and temporary roost relocation remain alternatives. The report therefore records an unexplained post-access bat deficit with functioning devices and physical traces; it does not assign a covert operation or final use.",BAT-0000064,DEV-KNTKES-2,restricted,KNT-KES,2024-04-05 18:00:00,0.33444816053511706,True,True,True,2024-04,DOP-0000064,83.1,73.1,NO_FAULT,True
+EFR-510082,KNT-JAK,2019-04-01,field_observation,Vera Waren,Pollinator Justice Network,2019-04-01,Field Observation 27,"SITE AND TIME
+Field observation at KNT-JAK during sensor maintenance cycle.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001000. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+AUTHORIZED ACTIVITY
+A licensed bat collection for tagging and release was completed by the conservation team; all animals were returned at the capture point.",BAT-0001000,DEV-KNTJAK-3,restricted,KNT-JAK,2024-04-05 18:00:00,0.8130081300813008,True,True,True,2024-04,DOP-0001000,100.0,85.3,NO_FAULT,True
+EFR-510035,KNT-JQG,2022-09-08,field_observation,Uma Wessen,Horizon Field Research Cooperative,2022-09-01,Field Observation 28,"SITE AND TIME
+Field observation at KNT-JQG during habitat disturbance assessment.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001037. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.",BAT-0001037,DEV-KNTJQG-1,internal,KNT-JQG,2020-11-05 18:00:00,0.3125,True,True,False,2020-11,DOP-0001037,91.3,85.5,NO_FAULT,True
+EFR-510007,KNT-JQG,2025-02-15,field_observation,J. Varlan,Varlan Natural History Circle,2025-02-01,Field Observation 29,"SITE AND TIME
+Field observation at KNT-JQG during rainfall exception review.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001074. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.",BAT-0001074,DEV-KNTJQG-1,public,KNT-JQG,2023-12-05 18:00:00,0.2459016393442623,True,True,False,2023-12,DOP-0001074,98.6,69.6,NO_FAULT,True
+EFR-510031,KNT-VLB,2020-07-22,field_observation,Jonah Bell,Bell Conservation Survey,2020-07-01,Field Observation 30,"SITE AND TIME
+Field observation at KNT-VLB during fruit-set monitoring.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001111. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.",BAT-0001111,DEV-KNTVLB-2,internal,KNT-VLB,2020-07-05 18:00:00,0.1932367149758454,True,True,False,2020-07,DOP-0001111,90.9,92.8,NO_FAULT,True
+EFR-510020,KNT-VLB,2023-12-02,field_observation,Julien Marot,Marot Ecological Policy Office,2023-12-01,Field Observation 31,"SITE AND TIME
+Field observation at KNT-VLB during access-path inspection.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001148. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.",BAT-0001148,DEV-KNTVLB-2,internal,KNT-VLB,2023-08-05 18:00:00,0.20942408376963348,True,True,False,2023-08,DOP-0001148,86.7,85.6,NO_FAULT,True
+EFR-510048,KNT-CHP,2018-05-09,field_observation,Ilyan Rho,Avelora Agricultural Resilience Agency,2018-05-01,Field Observation 32,"SITE AND TIME
+Field observation at KNT-CHP during seasonal bat monitoring.
+
+METHOD
+The team completed a standard dusk transect and reviewed survey BAT-0001185. Effort and weather were recorded.
+
+OBSERVATIONS
+Bat activity and comparison-species counts varied across the interval. Vegetation and access conditions showed no acute change.
+
+LIMITATIONS
+Wind and intermittent background noise reduced certainty in part of the survey.
+
+The reporting interval concerns seasonal bat monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns seasonal bat monitoring and includes recorded effort, weather, and device-quality limitations.",BAT-0001185,DEV-KNTCHP-3,internal,KNT-CHP,2020-03-05 18:00:00,0.9316770186335402,True,True,True,2020-03,DOP-0001185,33.6,64.9,MICROPHONE_DRIFT,True
+EFR-510026,KNT-CHP,2021-10-16,monitoring_report,Mara Venn,Lantern Investigative Bureau,2021-10-01,Monthly Monitoring Report 33,"PERIOD
+Monitoring report for KNT-CHP, focused on orchard pollination survey.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001222 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns orchard pollination survey and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns orchard pollination survey and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns orchard pollination survey and includes recorded effort, weather, and device-quality limitations.
+
+PERMIT CONTEXT
+A separate licensed bat collection was recorded at a neighboring site for tagging and release, providing an ordinary comparison for handling-related terminology.",BAT-0001222,DEV-KNTCHP-3,internal,KNT-CHP,2023-04-05 18:00:00,1.0828025477707006,True,True,True,2023-04,DOP-0001222,49.3,63.6,MICROPHONE_DRIFT,True
+EFR-510037,KNT-YRG,2024-03-23,monitoring_report,Selene Aras,Threshold Earth Observatory,2024-03-01,Monthly Monitoring Report 34,"PERIOD
+Monitoring report for KNT-YRG, focused on cave microclimate review.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001259 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns cave microclimate review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns cave microclimate review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns cave microclimate review and includes recorded effort, weather, and device-quality limitations.",BAT-0001259,DEV-KNTYRG-1,restricted,KNT-YRG,2019-11-05 18:00:00,0.08595988538681949,True,True,False,2019-11,DOP-0001259,95.5,81.1,NO_FAULT,True
+EFR-510054,KNT-YRG,2019-08-03,monitoring_report,Rayan Belen,Belen Agro-Industries,2019-08-01,Monthly Monitoring Report 35,"PERIOD
+Monitoring report for KNT-YRG, focused on sensor maintenance cycle.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001296 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.",BAT-0001296,DEV-KNTYRG-1,public,KNT-YRG,2022-12-05 18:00:00,0.03663003663003663,True,True,True,2022-12,DOP-0001296,100.0,78.5,NO_FAULT,True
+EFR-510115,KNT-WUQ,2022-01-10,monitoring_report,Anika Dren,Horizon Field Research Cooperative,2022-01-01,Monthly Monitoring Report 36,"PERIOD
+Monitoring report for KNT-WUQ, focused on habitat disturbance assessment.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001333 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.",BAT-0001333,DEV-KNTWUQ-2,public,KNT-WUQ,2019-07-05 18:00:00,0.5042016806722689,True,True,False,2019-07,DOP-0001333,100.0,76.4,NO_FAULT,True
+EFR-510019,KNT-WUQ,2025-06-17,monitoring_report,Daria Zaven,Asterion Clinical Institute,2025-06-01,Monthly Monitoring Report 37,"PERIOD
+Monitoring report for KNT-WUQ, focused on rainfall exception review.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001370 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.",BAT-0001370,DEV-KNTWUQ-2,public,KNT-WUQ,2022-08-05 18:00:00,0.34602076124567477,True,True,False,2022-08,DOP-0001370,88.9,81.6,NO_FAULT,True
+EFR-510042,KNT-DMJ,2020-11-24,monitoring_report,Yana Garen,Avelora Agricultural Resilience Agency,2020-11-01,Monthly Monitoring Report 38,"PERIOD
+Monitoring report for KNT-DMJ, focused on fruit-set monitoring.
+
+METHODS
+Acoustic, visual, environmental, orchard, and device records were compared. Survey BAT-0001407 was included with effort and weather controls.
+
+RESULTS
+Activity followed the broad seasonal pattern, with local variation around rainfall and flowering. Device coverage was adequate for trend interpretation.
+
+COMPARISON
+Neighboring sites showed both higher and lower counts, so the current interval is not uniquely anomalous.
+
+LIMITATIONS
+Short-term movement and unmeasured disturbance remain possible.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.",BAT-0001407,DEV-KNTDMJ-3,public,KNT-DMJ,2019-03-05 18:00:00,0.6907894736842105,True,True,False,2019-03,DOP-0001407,91.0,72.4,NO_FAULT,True
+EFR-510032,KNT-DMJ,2023-04-04,cave_access_note,Nadia Istra,Threshold Earth Observatory,2023-04-01,Cave Access Note 39,"ACCESS CONTEXT
+Routine access at KNT-DMJ for access-path inspection.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTDMJ-3 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001444,DEV-KNTDMJ-3,public,KNT-DMJ,2022-04-05 18:00:00,0.7374631268436579,True,True,False,2022-04,DOP-0001444,99.1,85.1,NO_FAULT,True
+EFR-510011,KNT-DMJ,2018-09-11,cave_access_note,Doran Wessen,Pollinator Justice Network,2018-09-01,Cave Access Note 40,"ACCESS CONTEXT
+Routine access at KNT-DMJ for seasonal bat monitoring.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTDMJ-3 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns seasonal bat monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001481,DEV-KNTDMJ-3,restricted,KNT-DMJ,2025-05-05 18:00:00,0.2556818181818182,True,True,True,2025-05,DOP-0001481,92.4,81.0,NO_FAULT,True
+EFR-510098,KNT-GGN,2021-02-18,cave_access_note,Jora Vela,Horizon Field Research Cooperative,2021-02-01,Cave Access Note 41,"ACCESS CONTEXT
+Routine access at KNT-GGN for orchard pollination survey.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTGGN-1 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns orchard pollination survey and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001518,DEV-KNTGGN-1,internal,KNT-GGN,2021-12-05 18:00:00,0.1413427561837456,True,True,True,2021-12,DOP-0001518,88.9,74.2,NO_FAULT,True
+EFR-510109,KNT-GGN,2024-07-25,cave_access_note,Faris Quell,Belen Agro-Industries,2024-07-01,Cave Access Note 42,"ACCESS CONTEXT
+Routine access at KNT-GGN for cave microclimate review.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTGGN-1 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns cave microclimate review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001555,DEV-KNTGGN-1,public,KNT-GGN,2025-01-05 18:00:00,0.025773195876288662,True,True,True,2025-01,DOP-0001555,99.2,72.4,NO_FAULT,True
+EFR-510122,KNT-QWU,2019-12-05,cave_access_note,Jora Boras,Avelora Agricultural Resilience Agency,2019-12-01,Cave Access Note 43,"ACCESS CONTEXT
+Routine access at KNT-QWU for sensor maintenance cycle.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTQWU-2 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001592,DEV-KNTQWU-2,restricted,KNT-QWU,2021-08-05 18:00:00,0.09063444108761329,True,True,True,2021-08,DOP-0001592,95.0,70.9,NO_FAULT,True
+EFR-510008,KNT-QWU,2022-05-12,cave_access_note,Calen Jaren,Threshold Earth Observatory,2022-05-01,Cave Access Note 44,"ACCESS CONTEXT
+Routine access at KNT-QWU for habitat disturbance assessment.
+
+CONDITIONS
+The entrance was secure, the path was passable, and no unauthorized equipment was observed.
+
+OBSERVATIONS
+Minor sediment disturbance was consistent with recent maintenance. The monitoring device DEV-KNTQWU-2 remained in its recorded position.
+
+ACTION
+Close the visit, retain photographs, and continue scheduled checks.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.",BAT-0001629,DEV-KNTQWU-2,public,KNT-QWU,2024-09-05 18:00:00,0.08733624454148473,True,True,True,2024-09,DOP-0001629,92.1,77.0,NO_FAULT,True
+EFR-510097,KNT-TLQ,2025-10-19,sensor_quality_report,Farah Norel,Pollinator Justice Network,2025-10-01,Sensor Quality Review 45,"DEVICE
+Quality review for DEV-KNTTLQ-3 at KNT-TLQ.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001666,DEV-KNTTLQ-3,public,KNT-TLQ,2021-04-05 18:00:00,1.032258064516129,True,True,False,2021-04,DOP-0001666,90.9,73.5,NO_FAULT,True
+EFR-510053,KNT-TLQ,2020-03-26,sensor_quality_report,Zalia Dalen,Horizon Field Research Cooperative,2020-03-01,Sensor Quality Review 46,"DEVICE
+Quality review for DEV-KNTTLQ-3 at KNT-TLQ.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001703,DEV-KNTTLQ-3,restricted,KNT-TLQ,2024-05-05 18:00:00,0.75,True,True,True,2024-05,DOP-0001703,95.1,81.8,NO_FAULT,True
+EFR-510003,KNT-UJJ,2023-08-06,sensor_quality_report,Orin Kassen,Belen Agro-Industries,2023-08-01,Sensor Quality Review 47,"DEVICE
+Quality review for DEV-KNTUJJ-1 at KNT-UJJ.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001740,DEV-KNTUJJ-1,restricted,KNT-UJJ,2020-12-05 18:00:00,0.425531914893617,True,True,False,2020-12,DOP-0001740,88.6,85.0,NO_FAULT,True
+EFR-510110,KNT-UJJ,2018-01-13,sensor_quality_report,Varen Orell,Avelora Agricultural Resilience Agency,2018-01-01,Sensor Quality Review 48,"DEVICE
+Quality review for DEV-KNTUJJ-1 at KNT-UJJ.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns seasonal bat monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001777,DEV-KNTUJJ-1,restricted,KNT-UJJ,2024-01-05 18:00:00,0.5675675675675675,True,True,True,2024-01,DOP-0001777,93.1,97.9,NO_FAULT,True
+EFR-510012,KNT-VXR,2021-06-20,sensor_quality_report,UNKNOWN,Threshold Earth Observatory,2021-06-01,Sensor Quality Review 49,"DEVICE
+Quality review for DEV-KNTVXR-2 at KNT-VXR.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns orchard pollination survey and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001814,DEV-KNTVXR-2,internal,KNT-VXR,2020-08-05 18:00:00,0.45977011494252873,True,True,False,2020-08,DOP-0001814,90.1,87.0,NO_FAULT,True
+EFR-510060,KNT-VXR,2024-11-27,sensor_quality_report,Amina Elen,Pollinator Justice Network,2024-11-01,Sensor Quality Review 50,"DEVICE
+Quality review for DEV-KNTVXR-2 at KNT-VXR.
+
+INTERVAL
+The device operated through the stated monitoring month with brief periods of reduced acoustic quality.
+
+EFFECT
+The fault may lower detection sensitivity during several hours but does not invalidate the entire period.
+
+REMEDIATION
+Clean the housing, verify time synchronization, and compare against the backup station.
+
+The reporting interval concerns cave microclimate review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001851,DEV-KNTVXR-2,restricted,KNT-VXR,2023-09-05 18:00:00,0.20134228187919462,True,True,False,2023-09,DOP-0001851,92.5,77.7,NO_FAULT,True
+EFR-510077,KNT-TEX,2019-04-07,ecological_incident_report,Doran Norel,Horizon Field Research Cooperative,2019-04-01,Ecological Incident Report 51,"INCIDENT
+An ordinary ecological incident was recorded at KNT-TEX during sensor maintenance cycle.
+
+EVIDENCE
+Survey BAT-0001888 showed a short-term reduction in activity. Heavy rainfall, access noise, and temporary device shielding were documented.
+
+RESPONSE
+The device was inspected and a repeat survey scheduled.
+
+UNCERTAINTY
+The available evidence favors temporary disturbance but does not exclude seasonal movement.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns sensor maintenance cycle and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001888,DEV-KNTTEX-3,internal,KNT-TEX,2020-04-05 18:00:00,0.5111821086261981,True,True,True,2020-04,DOP-0001888,93.4,56.8,NO_FAULT,True
+EFR-510120,KNT-TEX,2022-09-14,ecological_incident_report,Ravin Essen,Belen Agro-Industries,2022-09-01,Ecological Incident Report 52,"INCIDENT
+An ordinary ecological incident was recorded at KNT-TEX during habitat disturbance assessment.
+
+EVIDENCE
+Survey BAT-0001925 showed a short-term reduction in activity. Heavy rainfall, access noise, and temporary device shielding were documented.
+
+RESPONSE
+The device was inspected and a repeat survey scheduled.
+
+UNCERTAINTY
+The available evidence favors temporary disturbance but does not exclude seasonal movement.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns habitat disturbance assessment and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001925,DEV-KNTTEX-3,restricted,KNT-TEX,2023-05-05 18:00:00,0.132013201320132,True,True,True,2023-05,DOP-0001925,93.7,74.2,NO_FAULT,True
+EFR-510075,KNT-BME,2025-02-21,ecological_incident_report,Ravin Palen,Asterion Clinical Institute,2025-02-01,Ecological Incident Report 53,"INCIDENT
+An ordinary ecological incident was recorded at KNT-BME during rainfall exception review.
+
+EVIDENCE
+Survey BAT-0001962 showed a short-term reduction in activity. Heavy rainfall, access noise, and temporary device shielding were documented.
+
+RESPONSE
+The device was inspected and a repeat survey scheduled.
+
+UNCERTAINTY
+The available evidence favors temporary disturbance but does not exclude seasonal movement.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns rainfall exception review and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001962,DEV-KNTBME-1,restricted,KNT-BME,2019-12-05 18:00:00,0.3314917127071823,True,True,False,2019-12,DOP-0001962,93.1,73.1,NO_FAULT,True
+EFR-510130,KNT-BME,2020-07-01,ecological_incident_report,Jora Zaven,Avelora Agricultural Resilience Agency,2020-07-01,Ecological Incident Report 54,"INCIDENT
+An ordinary ecological incident was recorded at KNT-BME during fruit-set monitoring.
+
+EVIDENCE
+Survey BAT-0001999 showed a short-term reduction in activity. Heavy rainfall, access noise, and temporary device shielding were documented.
+
+RESPONSE
+The device was inspected and a repeat survey scheduled.
+
+UNCERTAINTY
+The available evidence favors temporary disturbance but does not exclude seasonal movement.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns fruit-set monitoring and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0001999,DEV-KNTBME-1,restricted,KNT-BME,2023-01-05 18:00:00,0.2670623145400593,True,True,True,2023-01,DOP-0001999,93.8,78.4,NO_FAULT,True
+EFR-510095,KNT-XAC,2023-12-08,ecological_incident_report,Jalen Zorin,Threshold Earth Observatory,2023-12-01,Ecological Incident Report 55,"INCIDENT
+An ordinary ecological incident was recorded at KNT-XAC during access-path inspection.
+
+EVIDENCE
+Survey BAT-0002036 showed a short-term reduction in activity. Heavy rainfall, access noise, and temporary device shielding were documented.
+
+RESPONSE
+The device was inspected and a repeat survey scheduled.
+
+UNCERTAINTY
+The available evidence favors temporary disturbance but does not exclude seasonal movement.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.
+
+Observed changes may reflect movement, weather, access, pesticide exposure, habitat disturbance, or ordinary seasonal variation.
+
+The report does not convert an unusual count into a claim about organized removal.
+
+A repeat interval and comparison with neighboring sites were recommended.
+
+The reporting interval concerns access-path inspection and includes recorded effort, weather, and device-quality limitations.
+
+Bat activity was interpreted alongside habitat condition, flowering, fruit set, disturbance, and comparison-species observations.
+
+The programme retained raw survey and device references so that low counts can be separated from poor monitoring coverage.",BAT-0002036,DEV-KNTXAC-2,public,KNT-XAC,2019-08-05 18:00:00,0.2469135802469136,True,True,False,2019-08,DOP-0002036,92.1,73.0,NO_FAULT,True
