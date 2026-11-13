@@ -219,3 +219,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local Kaggle datasets
+labs/lol-ranked-matches/data/raw/
+
+# Developer 5: generated logistics data (regenerate with build_data.py)
+/data/raw/logistics/
+/data/interim/logistics/
+/data/interim/logistics_numeric/
+/data/processed/logistics/
