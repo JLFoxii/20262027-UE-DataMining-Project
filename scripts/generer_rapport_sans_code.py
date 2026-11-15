@@ -27,6 +27,13 @@ ROOT = Path(__file__).resolve().parent.parent
 CODE_SOURCE = ROOT / "scripts/calculs_rapport_collectif.py"
 DESTINATION = ROOT / "Rapport_collectif_Data_Mining_M2DS_2026_2027.ipynb"
 
+# Le groupe a annoté ou refait plusieurs sorties de calcul dans le rendu final.
+# Il faut les garder intégralement (notamment la 8e figure créée par le groupe)
+# même lors d'une nouvelle exécution des calculs. Indices dans le script source.
+PRESERVE_GROUP_REVIEWED_OUTPUTS = frozenset({11, 14, 15, 19, 25, 33, 35, 42})
+EXPECTED_FIGURES = 8
+EXPECTED_TABLES = 13
+
 FIGURE_CAPTIONS = {
     7: "Étapes enregistrées dans les dossiers d'accès",
     11: "Organisations reliées aux dirigeants par les mandats déclarés",
@@ -203,8 +210,11 @@ def validate_report(report):
         raise ValueError("Le rapport doit être 100 % Markdown")
     images=sum(len(c.get("attachments",{})) for c in report.cells)
     tables=sum(c.source.count("**Tableau —") for c in report.cells)
-    if images!=7 or tables!=13:
-        raise ValueError(f"Rapport incomplet : {images} figures et {tables} tableaux (attendus 7 et 13)")
+    if images!=EXPECTED_FIGURES or tables!=EXPECTED_TABLES:
+        raise ValueError(
+            f"Rapport incomplet : {images} figures et {tables} tableaux "
+            f"(attendus {EXPECTED_FIGURES} et {EXPECTED_TABLES})"
+        )
     for c in report.cells:
         for name in re.findall(r"attachment:([^)]*)",c.source):
             if name not in c.get("attachments",{}):
@@ -245,6 +255,12 @@ def main():
         if index not in new_outputs:
             raise ValueError(f"Résultat absent après calcul : bloc {index}")
         converted=new_outputs[index]
+        if index in PRESERVE_GROUP_REVIEWED_OUTPUTS:
+            # Une sortie remaniée par le groupe est conservée mot pour mot,
+            # tableaux et images intégrées compris. Les calculs ont tout de même
+            # été relancés et vérifiés plus haut.
+            used.add(index)
+            continue
         cell.source=converted.source
         if converted.get("attachments"):
             cell.attachments=converted.attachments
@@ -260,7 +276,12 @@ def main():
         os.replace(tmp,DESTINATION)
     finally:
         if tmp.exists():tmp.unlink()
-    print(f"Régénération réussie : {DESTINATION.name} — {len(report.cells)} cellules Markdown, {figures} figures, {tables} tableaux, aucun code visible")
+    print(
+        f"Régénération réussie : {DESTINATION.name} — "
+        f"{len(report.cells)} cellules Markdown, {figures} figures, "
+        f"{tables} tableaux, aucun code visible ; "
+        f"{len(PRESERVE_GROUP_REVIEWED_OUTPUTS)} sorties remaniées par le groupe conservées"
+    )
 
 
 if __name__=="__main__":
