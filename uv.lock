@@ -811,6 +811,23 @@ wheels = [
 ]
 
 [[package]]
+name = "mlxtend"
+version = "0.23.4"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "joblib" },
+    { name = "matplotlib" },
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scikit-learn" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/ae/10/6caee09c2375bd5bebb1eec23a6ac3e8e3e3adab4014b8c3033047665583/mlxtend-0.23.4.tar.gz", hash = "sha256:ba8c8427cbe65d462c8487511331cae0cdcf9252d92f8687f0a53d311128770f", size = 1283996, upload-time = "2025-01-26T16:02:45.69Z" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/4c/43/2fc7f76c8891aef148901f1ba3dee65c1cbac00a85ae5ee0dabc2b861256/mlxtend-0.23.4-py3-none-any.whl", hash = "sha256:8675456e2b71841116e5317f6d7aa568848ea2546865eb5eca7192e9b7f395f4", size = 1352350, upload-time = "2025-01-26T16:02:43.208Z" },
+]
+
+[[package]]
 name = "narwhals"
 version = "2.28.0"
 source = { registry = "https://pypi.org/simple" }
@@ -1466,6 +1483,7 @@ dependencies = [
     { name = "ipykernel" },
     { name = "jupyterlab" },
     { name = "matplotlib" },
+    { name = "mlxtend" },
     { name = "networkx" },
     { name = "notebook" },
     { name = "numpy" },
@@ -1480,6 +1498,7 @@ requires-dist = [
     { name = "ipykernel", specifier = ">=6.29,<7" },
     { name = "jupyterlab", specifier = ">=4.0,<5" },
     { name = "matplotlib", specifier = ">=3.8,<4" },
+    { name = "mlxtend", specifier = ">=0.23,<0.24" },
     { name = "networkx", specifier = ">=3.3,<4" },
     { name = "notebook", specifier = ">=7.0,<8" },
     { name = "numpy", specifier = ">=1.26,<3" },

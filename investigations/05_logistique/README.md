@@ -82,6 +82,30 @@ Depuis la racine du dépôt :
 Ouvrir `investigations/05_logistique/05_logistique.ipynb` et sélectionner
 le kernel `INF2355M Data Mining (Python 3.12)` ou le Python `.venv` du projet.
 
+## Bibliothèques pour les méthodes de fouille de données
+
+Les traitements et les calculs du notebook 05 suivent les bibliothèques du projet :
+
+| Méthode | Implémentation |
+|---|---|
+| Standardisation des six variables | `sklearn.preprocessing.StandardScaler` |
+| PCA 2D | `sklearn.decomposition.PCA` |
+| K-Means (K=2 à 5) et silhouette | `sklearn.cluster.KMeans`, `sklearn.metrics.silhouette_score` |
+| Recherche du voisinage et DBSCAN | `sklearn.neighbors.NearestNeighbors`, `sklearn.cluster.DBSCAN` |
+| LOF (5 voisins) | `sklearn.neighbors.LocalOutlierFactor` |
+| Distance Haversine | `sklearn.metrics.pairwise.haversine_distances` |
+| TF-IDF | `sklearn.feature_extraction.text.TfidfVectorizer` |
+| Apriori et règles d'association | `mlxtend.preprocessing.TransactionEncoder`, `mlxtend.frequent_patterns` |
+| Centralités, communautés gloutonnes et Louvain | `networkx` |
+| Jointures, statistique descriptive, IQR et contrôles de stock | `pandas` / `numpy` |
+
+**Attention :** `Apriori` n'est pas fourni par scikit-learn, d'où l'utilisation de
+`mlxtend`. L'environnement est verrouillé dans `uv.lock` (commande :
+`~/.local/bin/uv sync --locked --inexact`). Les nouvelles partitions K-Means
+ne sont pas nécessairement identiques aux partitions de l'ancienne
+implémentation artisanale : les résultats affichés doivent être ceux des
+cellules réellement exécutées.
+
 ## Source des données
 
 - [Consignes du dépôt](https://github.com/JLFoxii/20262027-UE-DataMining-Project)
