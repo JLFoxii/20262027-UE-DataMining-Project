@@ -72,7 +72,9 @@ Lien cours → méthodes utilisées ici :
 | Signaux | `recording_id`, `encounter_number`, `patient_number` |
 | Règle | **toute référence extraite doit être confrontée** à la table CSV de destination |
 
-Attention : `REG-2018-0001` (dossier réglementaire) ≠ `REG-VLN-01001` (organisation enregistrée).
+Attention :
+- `REG-2018-0001` (dossier réglementaire) ≠ `REG-VLN-01001` (organisation enregistrée) ;
+- `ACC-2019-0005` (dossier d’accès) se valide dans `site_access_case_events.access_case_number`, pas dans `regulatory_case_events`.
 
 ---
 
@@ -80,14 +82,22 @@ Attention : `REG-2018-0001` (dossier réglementaire) ≠ `REG-VLN-01001` (organi
 
 ### Étape 0 — Préparer l’environnement
 
+Installation recommandée avec `uv` (voir aussi `install.md`) :
+
 ```bash
-conda create --name datamining --file requirements.txt
-conda activate datamining
-pip install pandas numpy matplotlib seaborn scikit-learn scipy networkx nltk
-jupyter notebook 06_textes_et_signaux.ipynb
+uv python install 3.12
+uv sync --locked
+uv run jupyter notebook 06_textes_et_signaux.ipynb
 ```
 
+Dépendances utiles à cette partie (déclarées dans `pyproject.toml` / `uv.lock`) :
+`pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`, `scipy`, `networkx`, `nltk`.
+
+Ressources NLTK téléchargées au besoin par le notebook : `punkt`, `punkt_tab`, `stopwords`.
+
 Le notebook doit être lancé **depuis la racine du dépôt** (là où se trouve le dossier `data/`).
+
+> Note : `requirements.txt` reste un ancien export Conda Windows ; pour une installation multiplateforme, préférer `uv`.
 
 ### Étape 1 — Chargement et contrôles de cardinalité (Partie A)
 
